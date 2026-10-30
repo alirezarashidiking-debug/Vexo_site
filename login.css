@@ -1,0 +1,7 @@
+/* VEXO login screen component */
+#loginScreen { isolation:isolate; }
+.login-card { backdrop-filter: blur(22px); }
+.login-submit { transition: transform .18s ease, filter .18s ease; }
+.login-submit:hover { transform: translateY(-1px); filter:brightness(1.06); }
+.login-google { transition: border-color .18s ease, background .18s ease; }
+.login-google:hover { border-color:#ff68bb80; background:#ff3da80c; }
